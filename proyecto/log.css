@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background: #01939c;
+    overflow-y: hidden!important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.login-container {
+    background: #12141d;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
